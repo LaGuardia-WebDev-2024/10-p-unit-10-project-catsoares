@@ -9,16 +9,19 @@ while (x< 400){
     }
     x = 0
     while (x<400){
-    text ("💋", x, 200);
+    text ("", x,100);
     x += 60;
     }
+
 //for (start; how long; change)  
-for (var x=0; x,<400; x+=20){
+for (var x=0; x<400; x+=20){
 line (0, x, 400, x);
 }
-gor (var i = 55; i <350; i+=20){
-text ('💖💖💖', 50, i);
+
+for (var i = 55; i <350; i+=20){
+text ('', 50, i);
 }
+
 };
 
 
