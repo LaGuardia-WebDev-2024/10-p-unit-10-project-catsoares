@@ -4,22 +4,22 @@ setup = function() {
  
 var x = 0;
 while (x< 400){
-    text("❤", x, 340);
+    ellipse(50, 50, 50, 50);
     x += 20;  
     }
     x = 0
-    while (x<400){
-    text ("", x,100);
-    x += 60;
+    while (x<100){
+    text ("C", x,100);
+    x += 100 ;
     }
 
 //for (start; how long; change)  
-for (var x=0; x<400; x+=20){
-line (0, x, 400, x);
+for (var x=0; x<200; x+=20){
+line (0, x, 200, x);
 }
 
-for (var i = 55; i <350; i+=20){
-text ('', 50, i);
+for (var x = 55; x <350; x+=20){
+ellipse (100, 100, 100, 100);
 }
 
 };
